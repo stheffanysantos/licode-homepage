@@ -1,5 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Press+Start+2P:regular);
 
+html{
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
@@ -8,23 +15,24 @@ body {
     color: #333;
     background-color: #f8f9fa;
     text-align: center;
-
 }
 
 header {
     background: #343a40;
     color: #fff;
     padding: 20px;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.274);
 }
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
+    margin: 5;
     display: flex;
     justify-content: center;
-    background: #f419a6;
+    background: #343a40;
     border-radius: 3px;
+    
 
 }
 
@@ -38,6 +46,9 @@ nav ul li a {
     padding: 10px 20px;
     display: block;
     transition: background 0.3s;
+    border-radius: 25px;
+    background-color: #495057;
+
 }
 
 nav ul li a:hover {
@@ -53,7 +64,6 @@ nav ul li a:hover {
 .header-content h1 {
     margin: 0;
     font-size: 2.5em;
-
 }
 
 .header-content p {
@@ -62,7 +72,7 @@ nav ul li a:hover {
 }
 
 .header-content a {
-    color: #fb97d8;
+    color: #f419a6;
 }
 
 .carousel {
@@ -217,8 +227,8 @@ footer {
     padding: 20px;
     text-align: center;
     position: relative;
-    width: 100%;
     bottom: 0;
+    box-shadow: 1px 1px 50px rgba(0, 0, 0, 0.274);
 }
 
 footer a {
@@ -234,3 +244,4 @@ footer a:hover {
     max-width: 800px;
     margin: auto;
 }
+
